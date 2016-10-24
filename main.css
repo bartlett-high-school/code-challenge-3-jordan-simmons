@@ -1,1 +1,24 @@
 /* Put your css here for your table and page styling */
+table {
+	border: 2px solid #acacac;
+	text-align: center;
+	padding: 5px;
+	/*margin: 10px;*/
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #000;
+	font-family: helvetica;
+	line-height: 1.5;
+}
+
+td, tr{
+	padding: 5px;
+	margin: 0;
+
+}
+tr{
+	background-color: #c3f0f0;
+}
+
+tr:nth-child(odd){
+	background-color: #a3e0e0;
+}
